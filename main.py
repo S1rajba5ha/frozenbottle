@@ -25,7 +25,7 @@ DB_PORT = os.getenv("DB_PORT", 5432)
 TABLE_NAME = "sales"   # change if needed
 
 # yesterday business load by default
-LOAD_DATE = (datetime.today() - timedelta(days=1)).strftime("%Y-%m-%d")
+LOAD_DATE = (datetime.today() - timedelta(days=0)).strftime("%Y-%m-%d")
 
 # =====================================================
 # AUTH TOKEN
