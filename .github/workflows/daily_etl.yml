@@ -2,7 +2,7 @@ name: Daily Sales ETL
 
 on:
   schedule:
-    - cron: "53 * * * *"
+    - cron: "*/20 * * * *"
 
   workflow_dispatch:       # Allows manual run button
 
