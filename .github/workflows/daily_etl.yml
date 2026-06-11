@@ -1,4 +1,4 @@
-name: Daily Sales ET
+name: Daily Sales ETL
 
 on:
   workflow_dispatch:       # Allows manual run button
